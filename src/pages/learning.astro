@@ -1,0 +1,28 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Sidebar from '../components/Sidebar.astro';
+---
+
+<Layout>
+    <div class="h-screen">
+        <Header />
+        <div class="flex h-[calc(100%_-_3rem)]">
+            <Sidebar />
+            <main class="w-5/6 px-6 py-6 grid grid-cols-3 gap-6 overflow-scroll">
+                <div class="h-40 bg-white animate-fade-in-top"></div>
+                <div class="h-40 bg-white animate-fade-in-top"></div>
+                <div class="h-40 bg-white animate-fade-in-top"></div>
+                <div class="h-40 bg-white animate-fade-in-top"></div>
+                <div class="h-40 bg-white animate-fade-in-top"></div>
+                <div class="h-40 bg-white animate-fade-in-top"></div>
+                <div class="h-40 bg-white animate-fade-in-top"></div>
+                <div class="h-40 bg-white animate-fade-in-top"></div>
+                <div class="h-40 bg-white animate-fade-in-top"></div>
+                <div class="h-40 bg-white animate-fade-in-top"></div>
+                <div class="h-40 bg-white animate-fade-in-top"></div>
+                <div class="h-40 bg-white animate-fade-in-top"></div>
+            </main>
+        </div>
+    </div>
+</Layout>
