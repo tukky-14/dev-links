@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Sidebar from '../components/Sidebar.astro';
+import home from '../features/home/img/home.png';
 ---
 
 <Layout>
@@ -17,7 +18,7 @@ import Sidebar from '../components/Sidebar.astro';
                         />
                         どこかの誰かの役に立ちますように。
                     </p>
-                    <img class="block w-full sm:w-4/5" src="/home.png" alt="学習をしている画像" />
+                    <img class="block w-full sm:w-4/5" src={home} alt="学習をしている画像" />
                     <a
                         class="text-xs text-blue-600"
                         href="https://storyset.com/education"
