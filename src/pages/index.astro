@@ -9,7 +9,22 @@ import Sidebar from '../components/Sidebar.astro';
         <Header />
         <div class="flex h-[calc(100%_-_3rem)]">
             <Sidebar />
-            <main class="w-5/6 mx-6 pt-6 grid grid-cols-3 gap-6"></main>
+            <main class="flex w-5/6 px-6 bg-white">
+                <div class="w-full sm:w-1/2 pt-6">
+                    <h3 class="text-xl mb-2 font-bold">もっと深く、もっと広く開発を楽しむ</h3>
+                    <p>
+                        このサイトでは管理人が開発を楽しくするために、開発に関係する学習サイト・便利サイトなどをまとめています。
+                        どこかの誰かの役に立ちますように。
+                    </p>
+                    <img class="block w-full sm:w-4/5" src="/home.png" alt="学習をしている画像" />
+                    <a
+                        class="text-sm text-blue-600"
+                        href="https://storyset.com/education"
+                        target="_blank"
+                        rel="noreferrer">Education illustrations by Storyset</a
+                    >
+                </div>
+            </main>
         </div>
     </div>
 </Layout>
