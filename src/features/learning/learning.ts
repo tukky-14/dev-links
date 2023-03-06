@@ -11,6 +11,7 @@ import envader from './img/envader.png';
 import recursion from './img/recursion.png';
 import codestep from './img/codestep.png';
 import algomethod from './img/algomethod.png';
+import commandlab from './img/commandlab.png';
 
 export const learningSites = [
     {
@@ -95,5 +96,11 @@ export const learningSites = [
         url: 'https://algo-method.com/',
         image: algomethod,
         description: 'アルゴリズムやデータ構造に特化したオンライン学習プラットフォーム。',
+    },
+    {
+        title: 'COMMAND LAB',
+        url: 'https://command-lab.com/practice/',
+        image: commandlab,
+        description: 'ショーカットキーの練習サイト。Office, WordPress, Figmaなど幅広い。',
     },
 ];
