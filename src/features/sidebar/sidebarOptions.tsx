@@ -13,10 +13,10 @@ export const SidebarOptions = () => {
                 <img className="h-4" src={home} alt="" />
                 <span className="pl-2">ホーム</span>
             </a>
-            <a href="/language" className="pl-4 py-2 flex items-center hover:bg-gray-100">
+            {/* <a href="/language" className="pl-4 py-2 flex items-center hover:bg-gray-100">
                 <img className="h-4" src={language} alt="" />
                 <span className="pl-2">言語</span>
-            </a>
+            </a> */}
             <a href="/learning" className="pl-4 py-2 flex items-center hover:bg-gray-100">
                 <img className="h-4" src={learning} alt="" />
                 <span className="pl-2">学習</span>
