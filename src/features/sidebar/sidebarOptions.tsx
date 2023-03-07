@@ -1,9 +1,9 @@
-import home from './img/home.svg';
-import learning from './img/learning.svg';
-import article from './img/article.svg';
-import useful from './img/useful.svg';
-import material from './img/material.svg';
-import other from './img/other.svg';
+import home from './icon/home.svg';
+import learning from './icon/learning.svg';
+import article from './icon/article.svg';
+import useful from './icon/useful.svg';
+import material from './icon/material.svg';
+import ai from './icon/ai.svg';
 
 const menuList = [
     { name: 'ホーム', link: '/', icon: home },
@@ -11,7 +11,7 @@ const menuList = [
     { name: '記事', link: '/article', icon: article },
     { name: '便利', link: '/useful', icon: useful },
     { name: '素材', link: '/material', icon: material },
-    { name: 'その他', link: '/other', icon: other },
+    { name: 'AI関連', link: '/ai', icon: ai },
 ];
 
 export const SidebarOptions = () => {

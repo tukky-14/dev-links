@@ -6,7 +6,7 @@ import { learningSites } from '../features/learning/learning';
 import { articleSites } from '../features/article/article';
 import { usefulSites } from '../features/useful/useful';
 import { materialSites } from '../features/material/material';
-import { otherSites } from '../features/other/other';
+import { aiSites } from '../features/ai/ai';
 
 export function getStaticPaths() {
     return [
@@ -14,7 +14,7 @@ export function getStaticPaths() {
         { params: { site: 'learning' } },
         { params: { site: 'useful' } },
         { params: { site: 'material' } },
-        { params: { site: 'other' } },
+        { params: { site: 'ai' } },
     ];
 }
 
@@ -33,8 +33,8 @@ switch (site) {
     case 'material':
         sites = materialSites;
         break;
-    case 'other':
-        sites = otherSites;
+    case 'ai':
+        sites = aiSites;
         break;
     default:
         sites = learningSites;

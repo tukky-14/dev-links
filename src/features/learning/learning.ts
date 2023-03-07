@@ -12,6 +12,8 @@ import recursion from './img/recursion.png';
 import codestep from './img/codestep.png';
 import algomethod from './img/algomethod.png';
 import commandlab from './img/commandlab.png';
+import ping_t from './img/ping_t.png';
+import ipa from './img/ipa.png';
 
 export const learningSites = [
     {
@@ -102,5 +104,18 @@ export const learningSites = [
         url: 'https://command-lab.com/practice/',
         image: commandlab,
         description: 'ショーカットキーの練習サイト。Office, WordPress, Figmaなど幅広い。',
+    },
+    {
+        title: 'Ping-t',
+        url: 'https://mondai.ping-t.com/g',
+        image: ping_t,
+        description:
+            '「AWS、CCNA/CCNP、LinuC、LPIC、HTML5プロフェッショナル認定資格、OSS-DB、オラクルマスター、ITパスポート、 ITILファンデーション試験の合格」の９種類の資格に対応した学習サイト。',
+    },
+    {
+        title: 'IPA',
+        url: 'https://www.ipa.go.jp/ikc/reports/info.html',
+        image: ipa,
+        description: '日本のIT分野の発達を目的とした組織、IPAが公開している資料。',
     },
 ];

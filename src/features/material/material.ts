@@ -7,7 +7,6 @@ import irasutoya from './img/irasutoya.png';
 import storyset from './img/storyset.png';
 import devicon from './img/devicon.png';
 import googlefonts from './img/googlefonts.png';
-import playgroundai from './img/playgroundai.png';
 
 export const materialSites = [
     {
@@ -72,11 +71,5 @@ export const materialSites = [
         image: googlefonts,
         description:
             '「Open Source Fonts」で商用・非商用に関わらず誰でも無料で使用することができる Web フォントを提供するGoogleのサービス。',
-    },
-    {
-        title: 'PlaygroundAI',
-        url: 'https://playgroundai.com/',
-        image: playgroundai,
-        description: '指示したテキストに従ってAIが画像を生成。すでにある画像に指示することも可能。',
     },
 ];
