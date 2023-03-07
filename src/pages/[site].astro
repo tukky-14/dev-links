@@ -2,7 +2,44 @@
 import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Sidebar from '../components/Sidebar.astro';
+import { learningSites } from '../features/learning/learning';
+import { articleSites } from '../features/article/article';
 import { usefulSites } from '../features/useful/useful';
+import { materialSites } from '../features/material/material';
+import { otherSites } from '../features/other/other';
+
+export function getStaticPaths() {
+    return [
+        { params: { site: 'article' } },
+        { params: { site: 'learning' } },
+        { params: { site: 'useful' } },
+        { params: { site: 'material' } },
+        { params: { site: 'other' } },
+    ];
+}
+
+const { site } = Astro.params;
+let sites: { title: string; url: string; image: string; description: string }[] = [];
+switch (site) {
+    case 'learning':
+        sites = learningSites;
+        break;
+    case 'article':
+        sites = articleSites;
+        break;
+    case 'useful':
+        sites = usefulSites;
+        break;
+    case 'material':
+        sites = materialSites;
+        break;
+    case 'other':
+        sites = otherSites;
+        break;
+    default:
+        sites = learningSites;
+        break;
+}
 ---
 
 <Layout>
@@ -12,7 +49,7 @@ import { usefulSites } from '../features/useful/useful';
             <Sidebar />
             <main class="sm:w-5/6 px-6 py-6 grid grid-cols-1 sm:grid-cols-3 gap-8 overflow-scroll">
                 {
-                    usefulSites.map((site) => (
+                    sites.map((site) => (
                         <a
                             href={site.url}
                             class="min-h-80 bg-gray-50 rounded animate-fade-in-top hover:border hover:border-indigo-400 hover:cursor-pointer"
