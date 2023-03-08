@@ -1,17 +1,11 @@
 ---
 import { SidebarOptions } from '../features/sidebar/sidebarOptions';
+import Copyright from './Copyright.astro';
 ---
 
 <aside class="hidden sm:block w-1/6 border-r">
     <div class="h-full pt-6 relative">
         <SidebarOptions />
-        <p class="absolute bottom-1 left-3">
-            &copy; 2023
-            <a
-                href="https://github.com/tukky-14/tukky-14.github.io"
-                target="_blank"
-                rel="noreferrer">tukky</a
-            >
-        </p>
+        <Copyright />
     </div>
 </aside>
