@@ -5,6 +5,9 @@ import Sidebar from '../components/Sidebar.astro';
 import home from '../features/home/img/home.png';
 import Menu from '../components/Menu.astro';
 import Copyright from '../components/Copyright.astro';
+
+const menuList = ['/ai', '/article', '/learning', '/useful', '/material'];
+const targetMenu = menuList[Math.floor(Math.random() * menuList.length)];
 ---
 
 <Layout>
@@ -23,7 +26,9 @@ import Copyright from '../components/Copyright.astro';
                         />
                         どこかの誰かの役に立ちますように。
                     </p>
-                    <img class="block w-full sm:w-4/5" src={home} alt="学習をしている画像" />
+                    <a href={targetMenu}>
+                        <img class="block w-full sm:w-4/5" src={home} alt="学習をしている画像" />
+                    </a>
                     <a
                         class="text-xs text-blue-600"
                         href="https://storyset.com/education"
