@@ -3,6 +3,8 @@ import toolscout from './img/toolscout.png';
 import stablediffusion from './img/stablediffusion.png';
 import lexica from './img/lexica.png';
 import playgroundai from './img/playgroundai.png';
+import autodraw from './img/autodraw.png';
+import coolgiftideas from './img/coolgiftideas.png';
 
 export const aiSites = [
     {
@@ -36,5 +38,19 @@ export const aiSites = [
         url: 'https://toolscout.ai/',
         image: toolscout,
         description: 'AIをベースとした様々なツールを探せるAI系アプリのコレクションサイト。',
+    },
+    {
+        title: 'AutoDraw',
+        url: 'https://www.autodraw.com/',
+        image: autodraw,
+        description:
+            'スマホやパソコンで描いたイラストを人口知能（AI）が判別して、プロが描いたようなイラストに描きなおしてくれるサービス。',
+    },
+    {
+        title: 'Cool Gift Ideas',
+        url: 'https://www.coolgiftideas.io/',
+        image: coolgiftideas,
+        description:
+            '入力したテキスト（英語）を解析して、ギフトのアイデアとそのアマゾンのリンクを表示してくれるサービス。',
     },
 ];
