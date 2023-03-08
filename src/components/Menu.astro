@@ -1,0 +1,57 @@
+---
+import menuIcon from '../features/sidebar/icon/menu.svg';
+import closeIcon from '../features/sidebar/icon/close.svg';
+import home from '../features/sidebar/icon/home.svg';
+import learning from '../features/sidebar/icon/learning.svg';
+import article from '../features/sidebar/icon/article.svg';
+import useful from '../features/sidebar/icon/useful.svg';
+import material from '../features/sidebar/icon/material.svg';
+import ai from '../features/sidebar/icon/ai.svg';
+
+const menuList = [
+    { name: 'ホーム', link: '/', icon: home },
+    { name: '学習', link: '/learning', icon: learning },
+    { name: '記事', link: '/article', icon: article },
+    { name: '便利', link: '/useful', icon: useful },
+    { name: '素材', link: '/material', icon: material },
+    { name: 'AI関連', link: '/ai', icon: ai },
+];
+---
+
+<div class="absolute top-0 right-0 pt-2 pr-4">
+    <button class="sm:hidden" id="menuOpen">
+        <img class="w-7 h-7" src={menuIcon} alt="メニューアイコンの画像" />
+    </button>
+    <div id="menuWindow" class="hidden pt-12 w-full bg-gray-400 z-20 fixed top-0 right-0">
+        <button class="hidden z-30 fixed top-0 right-0 pt-2 pr-4" id="menuClose">
+            <img class="w-7 h-7 z-30" src={closeIcon} alt="閉じるアイコンの画像" />
+        </button>
+        {
+            menuList.map(({ name, link, icon }) => (
+                <a href={link} class="pl-4 py-2 border-t flex items-center hover:bg-gray-100 z-20">
+                    <img class="h-4" src={icon} alt={`${name}のアイコン画像`} />
+                    <span class="pl-2">{name}</span>
+                </a>
+            ))
+        }
+    </div>
+</div>
+
+<script>
+    const menuOpen = document.getElementById('menuOpen');
+    const menuClose = document.getElementById('menuClose');
+    const menuWindow = document.getElementById('menuWindow');
+
+    menuOpen?.addEventListener('click', () => {
+        menuOpen?.classList.add('hidden');
+        menuClose?.classList.remove('hidden');
+        menuWindow?.classList.add('hidden', 'animate-fade-in');
+        menuWindow?.classList.remove('hidden');
+    });
+
+    menuClose?.addEventListener('click', () => {
+        menuOpen?.classList.remove('hidden');
+        menuClose?.classList.add('hidden');
+        menuWindow?.classList.add('hidden');
+    });
+</script>

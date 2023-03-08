@@ -3,16 +3,20 @@ import Layout from '../layouts/Layout.astro';
 import Header from '../components/Header.astro';
 import Sidebar from '../components/Sidebar.astro';
 import home from '../features/home/img/home.png';
+import Menu from '../components/Menu.astro';
 ---
 
 <Layout>
-    <div class="h-screen">
+    <div class="h-screen relative">
+        <Menu />
         <Header />
         <div class="flex h-[calc(100%_-_3rem)]">
             <Sidebar />
             <main class="sm:w-5/6 flex px-6 bg-white">
                 <div class="w-full sm:w-1/2 pt-6">
-                    <h3 class="text-xl mb-2 font-bold">もっと深く、もっと広く開発を楽しむ</h3>
+                    <h3 class="text-xl mb-2 font-bold">
+                        もっと深く、<br class="sm:hidden" />もっと広く開発を楽しむ
+                    </h3>
                     <p>
                         このサイトでは管理人が開発を楽しくするために、開発に関係する学習サイト・便利サイトなどをまとめています。新しいサイトを見つけるたびに更新します。<br
                         />

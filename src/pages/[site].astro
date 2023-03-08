@@ -7,6 +7,7 @@ import { articleSites } from '../features/article/article';
 import { usefulSites } from '../features/useful/useful';
 import { materialSites } from '../features/material/material';
 import { aiSites } from '../features/ai/ai';
+import Menu from '../components/Menu.astro';
 
 export function getStaticPaths() {
     return [
@@ -43,7 +44,8 @@ switch (site) {
 ---
 
 <Layout>
-    <div class="h-screen">
+    <div class="h-screen relative">
+        <Menu />
         <Header />
         <div class="flex h-[calc(100%_-_3rem)]">
             <Sidebar />
