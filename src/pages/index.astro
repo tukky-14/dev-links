@@ -17,7 +17,7 @@ const targetMenu = menuList[Math.floor(Math.random() * menuList.length)];
         <div class="flex h-[calc(100%_-_3rem)]">
             <Sidebar />
             <main class="sm:w-5/6 flex px-6 bg-white">
-                <div class="w-full sm:w-1/2 pt-6">
+                <div class="w-full sm:w-1/2 pt-6 relative">
                     <h3 class="text-xl mb-2 font-bold">
                         もっと深く、<br class="sm:hidden" />もっと広く開発を楽しむ
                     </h3>
@@ -27,7 +27,7 @@ const targetMenu = menuList[Math.floor(Math.random() * menuList.length)];
                         どこかの誰かの役に立ちますように。
                     </p>
                     <a href={targetMenu}>
-                        <img class="block w-full sm:w-4/5" src={home} alt="学習をしている画像" />
+                        <img class="block w-4/5" src={home} alt="学習をしている画像" />
                     </a>
                     <a
                         class="text-xs text-blue-600"
