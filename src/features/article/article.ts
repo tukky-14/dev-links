@@ -3,6 +3,7 @@ import zenn from './img/zenn.png';
 import developersio from './img/developersio.png';
 import itmedia from './img/itmedia.png';
 import codezine from './img/codezine.png';
+import hatena from './img/hatena.png';
 import itleaders from './img/itleaders.png';
 import zdnet from './img/zdnet.png';
 import wired from './img/wired.png';
@@ -43,6 +44,13 @@ export const articleSites = [
         image: codezine,
         description:
             'プログラミングや開発に関する情報を提供するオンラインメディア。テクノロジーのトレンドや製品の紹介なども行う。',
+    },
+    {
+        title: 'はてなブックマーク',
+        url: 'https://b.hatena.ne.jp/hotentry/it',
+        image: hatena,
+        description:
+            'はてなブックマークのテクノロジーカテゴリ。テクノロジーに関する話題をざっくばらんにチェックできる。',
     },
     {
         title: 'IT Leaders',
