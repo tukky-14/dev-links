@@ -1,4 +1,5 @@
 import chatgpt from './img/chatgpt.png';
+import phind from './img/phind.png';
 import toolscout from './img/toolscout.png';
 import stablediffusion from './img/stablediffusion.png';
 import lexica from './img/lexica.png';
@@ -13,6 +14,12 @@ export const aiSites = [
         image: chatgpt,
         description:
             '人間のテキストを学習し、それに基づいて新しいテキストを生成する人工知能モデル。',
+    },
+    {
+        title: 'phind',
+        url: 'https://www.phind.com/',
+        image: phind,
+        description: '開発向けに特化したChatGPTライクなAIサービス。学習が捗ります。',
     },
     {
         title: 'Stable Diffusion',
