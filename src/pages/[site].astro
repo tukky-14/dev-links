@@ -7,6 +7,7 @@ import { articleSites } from '../features/article/article';
 import { usefulSites } from '../features/useful/useful';
 import { materialSites } from '../features/material/material';
 import { aiSites } from '../features/ai/ai';
+import { chromeSites } from '../features/chrome/chrome';
 import Menu from '../components/Menu.astro';
 
 export function getStaticPaths() {
@@ -16,6 +17,7 @@ export function getStaticPaths() {
         { params: { site: 'useful' } },
         { params: { site: 'material' } },
         { params: { site: 'ai' } },
+        { params: { site: 'chrome' } },
     ];
 }
 
@@ -36,6 +38,9 @@ switch (site) {
         break;
     case 'ai':
         sites = aiSites;
+        break;
+    case 'chrome':
+        sites = chromeSites;
         break;
     default:
         sites = learningSites;
