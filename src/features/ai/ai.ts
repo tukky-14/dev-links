@@ -1,6 +1,7 @@
 import chatgpt from './img/chatgpt.png';
 import phind from './img/phind.png';
 import toolscout from './img/toolscout.png';
+import futurepedia from './img/futurepedia.png';
 import stablediffusion from './img/stablediffusion.png';
 import lexica from './img/lexica.png';
 import playgroundai from './img/playgroundai.png';
@@ -39,6 +40,12 @@ export const aiSites = [
         url: 'https://playgroundai.com/',
         image: playgroundai,
         description: '指示したテキストに従ってAIが画像を生成。すでにある画像に指示することも可能。',
+    },
+    {
+        title: 'FUTUREPEDIA',
+        url: 'https://www.futurepedia.io/',
+        image: futurepedia,
+        description: '毎日更新される世界中のAIツールがまとまっているサイト。',
     },
     {
         title: 'ToolScout',
