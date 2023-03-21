@@ -5,6 +5,7 @@ import useful from './icon/useful.svg';
 import material from './icon/material.svg';
 import ai from './icon/ai.svg';
 import chrome from './icon/chrome.svg';
+import vscode from './icon/vscode.svg';
 
 const menuList = [
     { name: 'ホーム', link: '/', icon: home },
@@ -14,6 +15,7 @@ const menuList = [
     { name: '素材', link: '/material', icon: material },
     { name: 'AI関連', link: '/ai', icon: ai },
     { name: 'Chrome拡張機能', link: '/chrome', icon: chrome },
+    { name: 'VSCode拡張機能', link: '/vscode', icon: vscode },
 ];
 
 export const SidebarOptions = () => {
