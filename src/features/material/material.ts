@@ -60,7 +60,7 @@ export const materialSites = [
     },
     {
         title: 'devicon',
-        url: 'https://storyset.com/',
+        url: 'https://devicon.dev/',
         image: devicon,
         description:
             '多数のプログラミング言語やツールのアイコン素材を提供するサイト。SVG形式で提供され、商用利用も可能。',
