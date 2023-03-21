@@ -10,6 +10,7 @@ import blackbox from './img/blackbox.png';
 import authenticator from './img/authenticator.png';
 import keepa from './img/keepa.png';
 import dailydev from './img/dailydev.png';
+import glarity from './img/glarity.png';
 
 export const chromeSites = [
     {
@@ -95,5 +96,12 @@ export const chromeSites = [
         image: dailydev,
         description:
             'インストールするとGoogleChromeのホーム画面が海外のTechメディアのRSSを表示する画面になる。最新技術の情報収集が捗る。',
+    },
+    {
+        title: 'glarity',
+        url: 'https://chrome.google.com/webstore/detail/glarity-summary-for-googl/cmnlolelipjlhfkhpohphpedmkfbobjc',
+        image: glarity,
+        description:
+            'ChatGPTを使用し、Google検索やYouTube動画などのWebサイトコンテンツの要約を生成する拡張機能。',
     },
 ];
