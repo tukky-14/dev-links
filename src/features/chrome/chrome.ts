@@ -11,6 +11,7 @@ import authenticator from './img/authenticator.png';
 import keepa from './img/keepa.png';
 import dailydev from './img/dailydev.png';
 import glarity from './img/glarity.png';
+import crxmouse from './img/crxmouse.png';
 
 export const chromeSites = [
     {
@@ -103,5 +104,12 @@ export const chromeSites = [
         image: glarity,
         description:
             'ChatGPTを使用し、Google検索やYouTube動画などのWebサイトコンテンツの要約を生成する拡張機能。',
+    },
+    {
+        title: 'crxMouse',
+        url: 'https://chrome.google.com/webstore/detail/glarity-summary-for-googl/cmnlolelipjlhfkhpohphpedmkfbobjc',
+        image: crxmouse,
+        description:
+            'マウスの動きにさまざまな操作を割り当てることができる。片手だけでいろんな操作をコントロール。',
     },
 ];
