@@ -9,6 +9,7 @@ import { materialSites } from '../features/material/material';
 import { aiSites } from '../features/ai/ai';
 import { chromeSites } from '../features/chrome/chrome';
 import { vscodeSites } from '../features/vscode/vscode';
+import { appSites } from '../features/app/app';
 import Menu from '../components/Menu.astro';
 
 export function getStaticPaths() {
@@ -20,6 +21,7 @@ export function getStaticPaths() {
         { params: { site: 'ai' } },
         { params: { site: 'chrome' } },
         { params: { site: 'vscode' } },
+        { params: { site: 'app' } },
     ];
 }
 
@@ -46,6 +48,9 @@ switch (site) {
         break;
     case 'vscode':
         sites = vscodeSites;
+        break;
+    case 'app':
+        sites = appSites;
         break;
     default:
         sites = learningSites;
