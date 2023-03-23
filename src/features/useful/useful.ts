@@ -10,6 +10,8 @@ import renderforest from './img/renderforest.png';
 import visualsitemaps from './img/visualsitemaps.png';
 import slides_code_highlighter from './img/slides_code_highlighter.png';
 import virustotal from './img/virustotal.png';
+import codic from './img/codic.png';
+import feedly from './img/feedly.png';
 
 export const usefulSites = [
     {
@@ -83,7 +85,8 @@ export const usefulSites = [
         title: 'SlidesCodeHighlighter',
         url: 'https://romannurik.github.io/SlidesCodeHighlighter/',
         image: slides_code_highlighter,
-        description: 'ソースコードにシンタックスハイライトで色付けしてくれるWebツール。',
+        description:
+            'ソースコードにシンタックスハイライトで色付けしてくれるWebツール。カラフルなコードにしてパワポなどに貼ろう。',
     },
     {
         title: 'VirusTotal',
@@ -91,5 +94,19 @@ export const usefulSites = [
         image: virustotal,
         description:
             'ファイルやウェブサイトのマルウェア検査を行うウェブサイト。対象のファイルやウェブサイトが「マルウェアを含むかどうか」検査できる。',
+    },
+    {
+        title: 'codic',
+        url: 'https://codic.jp/',
+        image: codic,
+        description:
+            '日本語を入力すると変数名を提示してくれるサービス。命名作業は結構頭持ってかれるので嬉しい。',
+    },
+    {
+        title: 'Feedly',
+        url: 'https://feedly.com/i/welcome/logged-out',
+        image: feedly,
+        description:
+            '登録したサイトの更新を監視できるRSSリーダー。PCをメインで使用する者にとってRSSリーダーはまだオワコンではない。',
     },
 ];
