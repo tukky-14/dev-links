@@ -12,6 +12,8 @@ import slides_code_highlighter from './img/slides_code_highlighter.png';
 import virustotal from './img/virustotal.png';
 import codic from './img/codic.png';
 import feedly from './img/feedly.png';
+import see_ss from './img/see_ss.png';
+import ux_mov from './img/ux_mov.png';
 
 export const usefulSites = [
     {
@@ -108,5 +110,17 @@ export const usefulSites = [
         image: feedly,
         description:
             '登録したサイトの更新を監視できるRSSリーダー。PCをメインで使用する者にとってRSSリーダーはまだオワコンではない。',
+    },
+    {
+        title: 'See-SS',
+        url: 'https://see-ss.com/',
+        image: see_ss,
+        description: '見やすさにこだわっているHTML/CSSのスニペットサイト。一覧でかなり見やすい。',
+    },
+    {
+        title: 'UX-mov',
+        url: 'https://ux-mov.com/',
+        image: ux_mov,
+        description: 'アプリのUIが動画で見れるギャラリーサイト。UIデザインの参考になる。',
     },
 ];
