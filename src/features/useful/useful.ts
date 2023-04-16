@@ -14,6 +14,9 @@ import codic from './img/codic.png';
 import feedly from './img/feedly.png';
 import see_ss from './img/see_ss.png';
 import ux_mov from './img/ux_mov.png';
+import opensourcealternative from './img/opensourcealternative.png';
+import canva from './img/canva.png';
+import codesandbox from './img/codesandbox.png';
 
 export const usefulSites = [
     {
@@ -122,5 +125,25 @@ export const usefulSites = [
         url: 'https://ux-mov.com/',
         image: ux_mov,
         description: 'アプリのUIが動画で見れるギャラリーサイト。UIデザインの参考になる。',
+    },
+    {
+        title: 'Open Source Alternative To',
+        url: 'https://www.opensourcealternative.to/',
+        image: opensourcealternative,
+        description: '世界中のオープンソースを検索できるサイト。',
+    },
+    {
+        title: 'Canva',
+        url: 'https://www.canva.com/ja_jp/',
+        image: canva,
+        description:
+            '無料で使えるオンラインのグラフィックデザインツール。ロゴ、ポスター、プレゼンなどいろんなものがデザインできる',
+    },
+    {
+        title: 'CodeSandbox',
+        url: 'https://codesandbox.io/',
+        image: codesandbox,
+        description:
+            'Webアプリの作成やコードの共有をブラウザだけ行うことができるオンラインコードエディター',
     },
 ];
