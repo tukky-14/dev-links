@@ -17,6 +17,7 @@ import ux_mov from './img/ux_mov.png';
 import opensourcealternative from './img/opensourcealternative.png';
 import canva from './img/canva.png';
 import codesandbox from './img/codesandbox.png';
+import sqlfiddle from './img/sqlfiddle.png';
 
 export const usefulSites = [
     {
@@ -145,5 +146,11 @@ export const usefulSites = [
         image: codesandbox,
         description:
             'Webアプリの作成やコードの共有をブラウザだけ行うことができるオンラインコードエディター',
+    },
+    {
+        title: 'SQL Fiddle',
+        url: 'http://sqlfiddle.com/#!9',
+        image: sqlfiddle,
+        description: 'ブラウザ上でSQLを実行できる。実行環境を用意しなくてもSQLを試すことができる。',
     },
 ];
