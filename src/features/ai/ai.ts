@@ -1,4 +1,5 @@
 import chatgpt from './img/chatgpt.png';
+import minigpt from './img/minigpt.png';
 import phind from './img/phind.png';
 import toolscout from './img/toolscout.png';
 import futurepedia from './img/futurepedia.png';
@@ -15,6 +16,13 @@ export const aiSites = [
         image: chatgpt,
         description:
             '人間のテキストを学習し、それに基づいて新しいテキストを生成する人工知能モデル。',
+    },
+    {
+        title: 'MiniGPT',
+        url: 'https://minigpt-4.github.io/',
+        image: minigpt,
+        description:
+            '画像を使用して会話できるAIツール。画像の説明やコードの作成、広告文章を考えたりできる。',
     },
     {
         title: 'phind',
