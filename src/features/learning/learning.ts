@@ -5,6 +5,7 @@ import atcoder from './img/atcoder.png';
 import udemy from './img/udemy.png';
 import techpit from './img/techpit.png';
 import chotdesign from './img/chotdesign.png';
+import slstudio from './img/slstudio.png';
 import schoo from './img/schoo.png';
 import sharewis from './img/sharewis.png';
 import envader from './img/envader.png';
@@ -61,6 +62,12 @@ export const learningSites = [
         image: chotdesign,
         description:
             'UI/UXデザインに特化したオンライン講座。様々な分野のデザイナーが講師を務めている。',
+    },
+    {
+        title: 'SLスタジオ',
+        url: 'https://sls.ideal-growth.jp/',
+        image: slstudio,
+        description: '複数のプログラミング講座が無料で受講できます。全部無料でかなり有益。',
     },
     {
         title: 'Schoo',
