@@ -1,5 +1,6 @@
 import chatgpt from './img/chatgpt.png';
 import minigpt from './img/minigpt.png';
+import perplexity from './img/perplexity.png';
 import phind from './img/phind.png';
 import toolscout from './img/toolscout.png';
 import futurepedia from './img/futurepedia.png';
@@ -8,6 +9,7 @@ import lexica from './img/lexica.png';
 import playgroundai from './img/playgroundai.png';
 import autodraw from './img/autodraw.png';
 import coolgiftideas from './img/coolgiftideas.png';
+import hirameki from './img/hirameki.png';
 
 export const aiSites = [
     {
@@ -23,6 +25,12 @@ export const aiSites = [
         image: minigpt,
         description:
             '画像を使用して会話できるAIツール。画像の説明やコードの作成、広告文章を考えたりできる。',
+    },
+    {
+        title: 'Perplexity',
+        url: 'https://www.perplexity.ai/',
+        image: perplexity,
+        description: 'アカウント登録なしで使えるChatGPTライクなAIサービス。レスポンスも早いです。',
     },
     {
         title: 'phind',
@@ -74,5 +82,12 @@ export const aiSites = [
         image: coolgiftideas,
         description:
             '入力したテキスト（英語）を解析して、ギフトのアイデアとそのアマゾンのリンクを表示してくれるサービス。',
+    },
+    {
+        title: 'AIひらめきメーカー',
+        url: 'https://hirameki.app/',
+        image: hirameki,
+        description:
+            '入力したテキストから無限にアイデアを生成できるサービス。かなりおもしろいです。。',
     },
 ];
