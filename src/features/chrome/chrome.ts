@@ -12,6 +12,7 @@ import pasty from './img/pasty.png';
 import ublacklist from './img/ublacklist.png';
 import video_speed_controller from './img/video_speed_controller.png';
 import wappalyzer from './img/wappalyzer.png';
+import chatgpt_to_notion from './img/chatgpt_to_notion.png';
 
 export const chromeSites = [
     {
@@ -111,5 +112,12 @@ export const chromeSites = [
         image: wappalyzer,
         description:
             '開いているページに使用されている言語やフレームワークを表示。気になるサイトが何の技術で作成されているかチェックするのは楽しい。',
+    },
+    {
+        title: 'ChatGPT to Notion',
+        url: 'https://chrome.google.com/webstore/detail/chatgpt-to-notion/oojndninaelbpllebamcojkdecjjhcle',
+        image: chatgpt_to_notion,
+        description:
+            'ChatGPTとやりとりした内容を、事前に設定したNotionのデータベースに保存します。Notionを使っているなら必ず入れておきたい拡張機能。',
     },
 ];
