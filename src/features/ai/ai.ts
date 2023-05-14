@@ -1,4 +1,5 @@
 import chatgpt from './img/chatgpt.png';
+import bard from './img/bard.png';
 import minigpt from './img/minigpt.png';
 import perplexity from './img/perplexity.png';
 import phind from './img/phind.png';
@@ -18,6 +19,12 @@ export const aiSites = [
         image: chatgpt,
         description:
             '人間のテキストを学習し、それに基づいて新しいテキストを生成する人工知能モデル。',
+    },
+    {
+        title: 'Bard',
+        url: 'https://bard.google.com/',
+        image: bard,
+        description: 'Googleが開発した対話型AIのサービス。2023年5月に日本語にも対応した。',
     },
     {
         title: 'MiniGPT',
