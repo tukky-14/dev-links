@@ -1,7 +1,9 @@
 import odan from './img/odan.png';
 import flaticon from './img/flaticon.png';
 import icooonmono from './img/icooonmono.png';
+import iconmonstr from './img/iconmonstr.png';
 import storyset from './img/storyset.png';
+import freeillustrations from './img/freeillustrations.png';
 import devicon from './img/devicon.png';
 import googlefonts from './img/googlefonts.png';
 import pakutaso from './img/pakutaso.png';
@@ -35,11 +37,24 @@ export const materialSites = [
             '商用利用可能なモノクロアイコン素材を提供するサイト。シンプルなデザインで、多くのカテゴリーに対応している。',
     },
     {
+        title: 'iconmonstr',
+        url: 'https://iconmonstr.com/',
+        image: iconmonstr,
+        description:
+            '無料でアイコンを入手できるサイト。ダウンロードした後に細かいカスタマイズも可能。',
+    },
+    {
         title: 'storyset',
         url: 'https://storyset.com/',
         image: storyset,
         description:
             '商用利用可能なフリーのイラストやアニメーション素材を提供するサイト。ビジネスや教育、医療など、多くのシーンに対応している。',
+    },
+    {
+        title: 'free ilustrations',
+        url: 'https://freeillustrations.xyz/',
+        image: freeillustrations,
+        description: 'イラストを無料で入手できる。クオリティが高い。。',
     },
     {
         title: 'devicon',
