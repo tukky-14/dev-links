@@ -26,7 +26,7 @@ export const SidebarOptions = () => {
             {menuList.map(({ name, link, icon }, index) => (
                 <a
                     href={link}
-                    className="pl-4 py-2 flex items-center hover:bg-gray-100"
+                    className="pl-4 py-2 flex items-center hover:bg-gray-100 duration-200"
                     key={index}
                 >
                     <img className="h-4" src={icon} alt={`${name}のアイコン画像`} />
