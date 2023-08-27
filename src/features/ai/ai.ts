@@ -11,6 +11,7 @@ import playgroundai from './img/playgroundai.png';
 import autodraw from './img/autodraw.png';
 import coolgiftideas from './img/coolgiftideas.png';
 import hirameki from './img/hirameki.png';
+import clipdrop from './img/clipdrop.png';
 
 export const aiSites = [
     {
@@ -96,5 +97,12 @@ export const aiSites = [
         image: hirameki,
         description:
             '入力したテキストから無限にアイデアを生成できるサービス。かなりおもしろいです。。',
+    },
+    {
+        title: 'ClipDrop',
+        url: 'https://clipdrop.co/',
+        image: clipdrop,
+        description:
+            '選択した部分や背景の削除、画質UP、らくがきから画像の生成など、様々な機能を持った驚きの画像処理サービス。',
     },
 ];
