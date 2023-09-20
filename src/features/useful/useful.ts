@@ -1,4 +1,5 @@
 import google_trends from './img/google_trends.png';
+import pagespeed from './img/pagespeed.png';
 import lorem_ipsum from './img/lorem_ipsum.png';
 import lorem_picsum from './img/lorem_picsum.png';
 import apibank from './img/apibank.png';
@@ -26,6 +27,13 @@ export const usefulSites = [
         image: google_trends,
         description:
             'ある単語がGoogleでどれだけ検索されているかというトレンドをグラフで見ることができるツール。',
+    },
+    {
+        title: 'PageSpeed Insights',
+        url: 'https://pagespeed.web.dev/?hl=ja',
+        image: pagespeed,
+        description:
+            'ページの表示速度を計測できるGoogleのツール。Web系開発者にはかかせないサービス。',
     },
     {
         title: 'Lorem Ipsum',
