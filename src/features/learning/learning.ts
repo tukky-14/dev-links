@@ -16,6 +16,8 @@ import commandlab from './img/commandlab.png';
 import ping_t from './img/ping_t.png';
 import ipa from './img/ipa.png';
 import free_code_camp from './img/free_code_camp.png';
+import cloud_tech from './img/cloud_tech.png';
+import cloud_license from './img/cloud_license.png';
 
 export const learningSites = [
     {
@@ -132,5 +134,19 @@ export const learningSites = [
         image: free_code_camp,
         description:
             '無料でWebプログラミングを学べるオンラインサービス。オープンソースベースでGitHubで管理され、世界中の方が学習に使用している。',
+    },
+    {
+        title: 'CloudTech',
+        url: 'https://kws-cloud-tech.com/',
+        image: cloud_tech,
+        description:
+            '日本最大級のAWS学習に特化したオンライン学習プラットフォーム。AWSスキルが動画学習や、AWS試験学習が可能。',
+    },
+    {
+        title: 'Cloud License(AWS Web問題集で学習しよう)',
+        url: 'https://cloud-license.com/',
+        image: cloud_license,
+        description:
+            'AWS認定試験のオンライン学習サイト。大量の問題を解いて解説を読むことで効率的に学習できる。',
     },
 ];
