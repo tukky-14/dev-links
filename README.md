@@ -5,11 +5,16 @@
 
 ## 公開先
 
-Cloudflare を使用して公開しました。
+Cloudflare を使用して公開しました。  
 https://dev-links.pages.dev/
 
 ## 使用技術
 
 -   Astro
 -   React
+-   TypeScript
 -   TailwindCSS
+
+## 構成図
+
+![構成図](diagram.png)
