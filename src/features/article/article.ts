@@ -9,6 +9,8 @@ import zdnet from './img/zdnet.png';
 import wired from './img/wired.png';
 import codegrid from './img/codegrid.png';
 import techcrunch from './img/techcrunch.png';
+import mercari from './img/mercari.png';
+import cyberagent from './img/cyberagent.png';
 
 export const articleSites = [
     {
@@ -84,5 +86,18 @@ export const articleSites = [
         image: techcrunch,
         description:
             'IT系のスタートアップ（ベンチャー）やWebに関するニュースを配信している米国のサイト。',
+    },
+    {
+        title: 'メルカリエンジニアリング',
+        url: 'https://engineering.mercari.com/',
+        image: mercari,
+        description:
+            'メルカリのエンジニアポータルサイト。技術ブログが頻繁に更新されている。技術スタックやメルカリが公開しているオープンソースも見ることができる。',
+    },
+    {
+        title: 'CyberAgent Developers Blog',
+        url: 'https://developers.cyberagent.co.jp/blog/',
+        image: cyberagent,
+        description: 'サイバーエージェントの技術ブログ。若手の記事も多く、モチベーションUPになる。',
     },
 ];
