@@ -13,6 +13,7 @@ import loosedrawing from './img/loosedrawing.png';
 import illust_navi from './img/illust_navi.png';
 import linustock from './img/linustock.png';
 import vectorshelf from './img/vectorshelf.png';
+import digital from './img/digital.png';
 
 export const materialSites = [
     {
@@ -88,30 +89,38 @@ export const materialSites = [
         title: 'ちょうどいいイラスト',
         url: 'https://tyoudoii-illust.com/',
         image: tyoudoii,
-        description: '商用利用可能なイラスト素材を提供するサイト。',
+        description: '商用利用可能なイラスト素材を提供するサイト。ちょうどいい。',
     },
     {
         title: 'Loose Drawing',
         url: 'https://loosedrawing.com/',
         image: loosedrawing,
-        description: '商用利用可能なイラスト素材を提供するサイト。',
+        description: '商用利用可能なイラスト素材を提供するサイト。手書き感がかわいい。',
     },
     {
         title: 'ILLUST NAVI',
         url: 'https://illust-navi.com/',
         image: illust_navi,
-        description: '商用利用可能なイラスト素材を提供するサイト。',
+        description: '商用利用可能なイラスト素材を提供するサイト。かわいらしいイラスト。',
     },
     {
         title: 'Linustock',
         url: 'https://www.linustock.com/vectors',
         image: linustock,
-        description: '商用利用可能なイラスト素材を提供するサイト。',
+        description:
+            '商用利用可能なイラスト素材を提供するサイト。線が細く白黒で使いやすいイラスト。',
     },
     {
         title: 'vectorShelf',
         url: 'https://vectorshelf.com/',
         image: vectorshelf,
-        description: '商用利用可能なイラスト素材を提供するサイト。',
+        description:
+            '商用利用可能なイラスト素材を提供するサイト。拡大縮小をしても粗さが一切目立たないベクターデータで取得できる。',
+    },
+    {
+        title: 'デジタル庁 イラストレーション・アイコン素材',
+        url: 'https://www.digital.go.jp/policies/servicedesign/designsystem/Illustration_Icons',
+        image: digital,
+        description: 'デジタル庁が提供する、クレジットなしで使用できるアイコン。わかりやすい。',
     },
 ];
