@@ -93,6 +93,7 @@ const sitesText = sites.map((site) => `${site.title}\n${site.url}\n`).join('\n')
         >
             <MaterialSymbolsContentCopyOutline />
         </button>
+        <div id="copied" class="hidden absolute top-0 right-1 text-red-600 text-xs">copied!</div>
         <div class="hidden" id="sitesText">{sitesText}</div>
     </div>
 </Layout>
@@ -100,8 +101,13 @@ const sitesText = sites.map((site) => `${site.title}\n${site.url}\n`).join('\n')
 <script>
     const copyIcon = document.getElementById('copyIcon');
     const sitesText = document.getElementById('sitesText');
+    const copied = document.getElementById('copied');
 
     copyIcon?.addEventListener('click', () => {
         navigator.clipboard.writeText(sitesText?.textContent || '');
+        copied?.classList.remove('hidden');
+        setTimeout(() => {
+            copied?.classList.add('hidden');
+        }, 1000);
     });
 </script>
