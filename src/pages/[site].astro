@@ -11,6 +11,7 @@ import { chromeSites } from '../features/chrome/chrome';
 import { vscodeSites } from '../features/vscode/vscode';
 import { appSites } from '../features/app/app';
 import Menu from '../components/Menu.astro';
+import MaterialSymbolsContentCopyOutline from '../components/MaterialSymbolsContentCopyOutline.astro';
 
 export function getStaticPaths() {
     return [
@@ -56,6 +57,7 @@ switch (site) {
         sites = learningSites;
         break;
 }
+const sitesText = sites.map((site) => `${site.title}\n${site.url}\n`).join('\n');
 ---
 
 <Layout>
@@ -85,5 +87,21 @@ switch (site) {
                 }
             </main>
         </div>
+        <button
+            id="copyIcon"
+            class="hidden sm:block pr-6 text-blue-600 hover:opacity-80 absolute top-4 right-0"
+        >
+            <MaterialSymbolsContentCopyOutline />
+        </button>
+        <div class="hidden" id="sitesText">{sitesText}</div>
     </div>
 </Layout>
+
+<script>
+    const copyIcon = document.getElementById('copyIcon');
+    const sitesText = document.getElementById('sitesText');
+
+    copyIcon?.addEventListener('click', () => {
+        navigator.clipboard.writeText(sitesText?.textContent || '');
+    });
+</script>
