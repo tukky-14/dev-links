@@ -5,6 +5,7 @@ import iconmonstr from './img/iconmonstr.png';
 import storyset from './img/storyset.png';
 import freeillustrations from './img/freeillustrations.png';
 import devicon from './img/devicon.png';
+import icons8 from './img/icons8.png';
 import googlefonts from './img/googlefonts.png';
 import pakutaso from './img/pakutaso.png';
 import irasutoya from './img/irasutoya.png';
@@ -63,6 +64,13 @@ export const materialSites = [
         image: devicon,
         description:
             '多数のプログラミング言語やツールのアイコン素材を提供するサイト。SVG形式で提供され、商用利用も可能。',
+    },
+    {
+        title: 'icons8',
+        url: 'https://icons8.com/icons',
+        image: icons8,
+        description:
+            'とにかくたくさんのアイコンが検索できる。ここで見つからないアイコンはないかもしれない。',
     },
     {
         title: 'Google Fonts',
