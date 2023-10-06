@@ -1,4 +1,5 @@
 import google_trends from './img/google_trends.png';
+import answersocrates from './img/answersocrates.png';
 import pagespeed from './img/pagespeed.png';
 import lorem_ipsum from './img/lorem_ipsum.png';
 import lorem_picsum from './img/lorem_picsum.png';
@@ -19,6 +20,8 @@ import opensourcealternative from './img/opensourcealternative.png';
 import canva from './img/canva.png';
 import codesandbox from './img/codesandbox.png';
 import sqlfiddle from './img/sqlfiddle.png';
+import smalldevtools from './img/smalldevtools.png';
+import carbon from './img/carbon.png';
 
 export const usefulSites = [
     {
@@ -27,6 +30,13 @@ export const usefulSites = [
         image: google_trends,
         description:
             'ある単語がGoogleでどれだけ検索されているかというトレンドをグラフで見ることができるツール。',
+    },
+    {
+        title: 'Answer Socrates',
+        url: 'https://answersocrates.com/',
+        image: answersocrates,
+        description:
+            'ある単語がGoogleでどのように検索されているか確認できる。サイトのデザインがいい。。',
     },
     {
         title: 'PageSpeed Insights',
@@ -160,5 +170,18 @@ export const usefulSites = [
         url: 'http://sqlfiddle.com/#!9',
         image: sqlfiddle,
         description: 'ブラウザ上でSQLを実行できる。実行環境を用意しなくてもSQLを試すことができる。',
+    },
+    {
+        title: 'small Dev tools',
+        url: 'https://smalldev.tools/',
+        image: smalldevtools,
+        description: '開発者が使えるツールをまとめているサイト。便利。',
+    },
+    {
+        title: 'carbon',
+        url: 'https://carbon.now.sh/',
+        image: carbon,
+        description:
+            'ソースコードを色付けした状態で出力できる。他者にソースコードを綺麗に共有したいときに便利。',
     },
 ];
