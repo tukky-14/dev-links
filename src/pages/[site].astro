@@ -64,6 +64,12 @@ const sitesText = sites.map((site) => `${site.title}\n${site.url}\n`).join('\n')
     <div class="h-screen relative">
         <Menu />
         <Header />
+        <input
+            type="text"
+            id="search"
+            class="absolute top-3 left-60 px-1.5 pr-1 py-0.5 rounded focus:outline-none text-gray-600 text-sm"
+            placeholder="search"
+        />
         <div class="flex h-[calc(100%_-_3rem)]">
             <Sidebar />
             <main class="sm:w-5/6 px-6 py-6 grid grid-cols-1 sm:grid-cols-3 gap-8 overflow-scroll">
@@ -109,5 +115,21 @@ const sitesText = sites.map((site) => `${site.title}\n${site.url}\n`).join('\n')
         setTimeout(() => {
             copied?.classList.add('hidden');
         }, 1000);
+    });
+
+    const search = document.getElementById('search');
+    search?.addEventListener('input', () => {
+        const searchValue = search.textContent?.toLowerCase() || '';
+        const sites = document.querySelectorAll('.grid a');
+        sites.forEach((site) => {
+            const title = site.querySelector('p:nth-child(2)')?.textContent?.toLowerCase() || '';
+            const description =
+                site.querySelector('p:nth-child(3)')?.textContent?.toLowerCase() || '';
+            if (title.includes(searchValue) || description.includes(searchValue)) {
+                site.classList.remove('hidden');
+            } else {
+                site.classList.add('hidden');
+            }
+        });
     });
 </script>

@@ -6,6 +6,7 @@ import storyset from './img/storyset.png';
 import freeillustrations from './img/freeillustrations.png';
 import devicon from './img/devicon.png';
 import icons8 from './img/icons8.png';
+import icones from './img/icones.png';
 import googlefonts from './img/googlefonts.png';
 import pakutaso from './img/pakutaso.png';
 import irasutoya from './img/irasutoya.png';
@@ -71,6 +72,13 @@ export const materialSites = [
         image: icons8,
         description:
             'とにかくたくさんのアイコンが検索できる。ここで見つからないアイコンはないかもしれない。',
+    },
+    {
+        title: 'icones',
+        url: 'https://icones.js.org/collection/all',
+        image: icones,
+        description:
+            '複数のアイコンライブラリから横断的にアイコンを検索できる。Reactなどで利用するときのコンポーネント化も簡単にできる。',
     },
     {
         title: 'Google Fonts',
