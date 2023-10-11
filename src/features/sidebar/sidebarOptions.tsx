@@ -7,6 +7,7 @@ import ai from './icon/ai.svg';
 import chrome from './icon/chrome.svg';
 import vscode from './icon/vscode.svg';
 import app from './icon/app.svg';
+import youtube from './icon/youtube.svg';
 
 const menuList = [
     { name: 'ホーム', link: '/', icon: home },
@@ -18,6 +19,7 @@ const menuList = [
     { name: 'Chrome拡張機能', link: '/chrome', icon: chrome },
     { name: 'VSCode拡張機能', link: '/vscode', icon: vscode },
     { name: 'アプリ', link: '/app', icon: app },
+    { name: 'YouTube', link: '/youtube', icon: youtube },
 ];
 
 export const SidebarOptions = () => {
