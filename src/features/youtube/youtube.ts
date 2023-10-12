@@ -5,6 +5,7 @@ import taiki from './img/taiki.png';
 import tomosuta from './img/tomosuta.png';
 import tutorial from './img/tutorial.png';
 import cooker8 from './img/cooker8.png';
+import imanyu from './img/imanyu.png';
 
 export const youtubeSites = [
     {
@@ -55,5 +56,12 @@ export const youtubeSites = [
         image: cooker8,
         description:
             '牛乳屋さんの社長の業務改善エッセンスを紹介するチャンネル。Google WorkSpaceの便利な使い方は明日から使えるものばかり。',
+    },
+    {
+        title: 'いまにゅのプログラミング塾',
+        url: 'https://www.youtube.com/@imanyu_programming',
+        image: imanyu,
+        description:
+            '「Python」「Google Apps Scirpt」「AI・機械学習」領域の講座を配信しているチャンネル。',
     },
 ];
