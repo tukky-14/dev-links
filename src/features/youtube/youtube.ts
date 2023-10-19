@@ -6,6 +6,7 @@ import tomosuta from './img/tomosuta.png';
 import tutorial from './img/tutorial.png';
 import cooker8 from './img/cooker8.png';
 import imanyu from './img/imanyu.png';
+import useful from './img/useful.png';
 
 export const youtubeSites = [
     {
@@ -63,5 +64,12 @@ export const youtubeSites = [
         image: imanyu,
         description:
             '「Python」「Google Apps Scirpt」「AI・機械学習」領域の講座を配信しているチャンネル。',
+    },
+    {
+        title: 'ユースフル / スキルの図書館',
+        url: 'https://www.youtube.com/@youseful_skill',
+        image: useful,
+        description:
+            'ChatGPTやBingAIなどのAI仕事術の他、Excel・Word・PowerPoint・Access・Outlook・GoogleなどのIT仕事術が学べるチャンネル。',
     },
 ];
