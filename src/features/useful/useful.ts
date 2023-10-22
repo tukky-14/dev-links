@@ -22,6 +22,7 @@ import codesandbox from './img/codesandbox.png';
 import sqlfiddle from './img/sqlfiddle.png';
 import smalldevtools from './img/smalldevtools.png';
 import carbon from './img/carbon.png';
+import waybackmachine from './img/waybackmachine.png';
 
 export const usefulSites = [
     {
@@ -183,5 +184,12 @@ export const usefulSites = [
         image: carbon,
         description:
             'ソースコードを色付けした状態で出力できる。他者にソースコードを綺麗に共有したいときに便利。',
+    },
+    {
+        title: 'Way Back Machine',
+        url: 'https://web.archive.org/',
+        image: waybackmachine,
+        description:
+            'ネットで見れなくなったサイトのアーカイブを見ることができるようになるサービスの中でも、最も見れる確率が高い。',
     },
 ];
