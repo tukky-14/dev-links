@@ -23,6 +23,7 @@ import sqlfiddle from './img/sqlfiddle.png';
 import smalldevtools from './img/smalldevtools.png';
 import carbon from './img/carbon.png';
 import waybackmachine from './img/waybackmachine.png';
+import producthunt from './img/producthunt.png';
 
 export const usefulSites = [
     {
@@ -191,5 +192,12 @@ export const usefulSites = [
         image: waybackmachine,
         description:
             'ネットで見れなくなったサイトのアーカイブを見ることができるようになるサービスの中でも、最も見れる確率が高い。',
+    },
+    {
+        title: 'Product Hunt',
+        url: 'https://www.producthunt.com/',
+        image: producthunt,
+        description:
+            '毎日、いろんなカテゴリーのプロダクトが数百個以上投稿されているプロダクト投稿サイト。投稿されたプロダクトに対する世界中のユーザーの評価が見れる。',
     },
 ];
