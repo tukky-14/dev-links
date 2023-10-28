@@ -12,6 +12,7 @@ import autodraw from './img/autodraw.png';
 import coolgiftideas from './img/coolgiftideas.png';
 import hirameki from './img/hirameki.png';
 import clipdrop from './img/clipdrop.png';
+import v0 from './img/v0.png';
 
 export const aiSites = [
     {
@@ -104,5 +105,12 @@ export const aiSites = [
         image: clipdrop,
         description:
             '選択した部分や背景の削除、画質UP、らくがきから画像の生成など、様々な機能を持った驚きの画像処理サービス。',
+    },
+    {
+        title: 'v0',
+        url: 'https://v0.dev/',
+        image: v0,
+        description:
+            'Next.jsの開発元として知られるVercel Labsが提供する生成AIサービス。ユーザーが入力したテキストプロンプトに基づいてWebページのUIを自動生成する。',
     },
 ];
