@@ -13,6 +13,7 @@ import coolgiftideas from './img/coolgiftideas.png';
 import hirameki from './img/hirameki.png';
 import clipdrop from './img/clipdrop.png';
 import v0 from './img/v0.png';
+import claude from './img/claude.png';
 
 export const aiSites = [
     {
@@ -112,5 +113,12 @@ export const aiSites = [
         image: v0,
         description:
             'Next.jsの開発元として知られるVercel Labsが提供する生成AIサービス。ユーザーが入力したテキストプロンプトに基づいてWebページのUIを自動生成する。',
+    },
+    {
+        title: 'Claude',
+        url: 'https://claude.ai/login?returnTo=%2F',
+        image: claude,
+        description:
+            'Anthropic社が作成したAIチャット。最大100,000トークンのテキスト処理や複数ファイルの同時読み込みが可能で、ChatGPTを上回る性能を発揮すると期待されている。',
     },
 ];
