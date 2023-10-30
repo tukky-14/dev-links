@@ -24,6 +24,7 @@ import smalldevtools from './img/smalldevtools.png';
 import carbon from './img/carbon.png';
 import waybackmachine from './img/waybackmachine.png';
 import producthunt from './img/producthunt.png';
+import webidea from './img/webidea.png';
 
 export const usefulSites = [
     {
@@ -199,5 +200,11 @@ export const usefulSites = [
         image: producthunt,
         description:
             '毎日、いろんなカテゴリーのプロダクトが数百個以上投稿されているプロダクト投稿サイト。投稿されたプロダクトに対する世界中のユーザーの評価が見れる。',
+    },
+    {
+        title: '動くWebデザインアイディア帳',
+        url: 'https://coco-factory.jp/ugokuweb/',
+        image: webidea,
+        description: 'Webデザインで使用する、動くパーツを逆引きできるサイト。',
     },
 ];
