@@ -207,4 +207,11 @@ export const usefulSites = [
         image: webidea,
         description: 'Webデザインで使用する、動くパーツを逆引きできるサイト。',
     },
+    {
+        title: 'SourceGraph',
+        url: 'https://sourcegraph.com/search',
+        image: webidea,
+        description:
+            'Gitリポジトリ上からソースコードを横断検索/フィルタリングできる。ソース検索が捗る。',
+    },
 ];
