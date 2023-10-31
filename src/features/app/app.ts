@@ -4,6 +4,7 @@ import line from './img/line.png';
 import powertoys from './img/powertoys.png';
 import devtoys from './img/devtoys.png';
 import everything from './img/everything.png';
+import cursor from './img/cursor.png';
 
 export const appSites = [
     {
@@ -46,5 +47,12 @@ export const appSites = [
         image: everything,
         description:
             '【Windows：○ ｜ Mac：×】高速でファイル検索を行うフリーソフト。通常のエクスプローラでの検索速度とは比べ物にならない速さ。ファイルが増えてきたら必須。',
+    },
+    {
+        title: 'Cursor',
+        url: 'https://cursor.sh//',
+        image: cursor,
+        description:
+            '【Windows：○ ｜ Mac：○】エディタ上でGPT4レベルのAIが使用できる次世代のエディタ。VSCode時代の終わりが来るか。。！？',
     },
 ];
