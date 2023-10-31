@@ -25,6 +25,7 @@ import carbon from './img/carbon.png';
 import waybackmachine from './img/waybackmachine.png';
 import producthunt from './img/producthunt.png';
 import webidea from './img/webidea.png';
+import sourcegraph from './img/sourcegraph.png';
 
 export const usefulSites = [
     {
@@ -210,7 +211,7 @@ export const usefulSites = [
     {
         title: 'SourceGraph',
         url: 'https://sourcegraph.com/search',
-        image: webidea,
+        image: sourcegraph,
         description:
             'Gitリポジトリ上からソースコードを横断検索/フィルタリングできる。ソース検索が捗る。',
     },
