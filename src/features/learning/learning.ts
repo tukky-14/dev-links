@@ -18,6 +18,9 @@ import ipa from './img/ipa.png';
 import free_code_camp from './img/free_code_camp.png';
 import cloud_tech from './img/cloud_tech.png';
 import cloud_license from './img/cloud_license.png';
+import sqlab from './img/sqlab.png';
+import cbc from './img/cbc.png';
+import cpa from './img/cpa.png';
 
 export const learningSites = [
     {
@@ -148,5 +151,25 @@ export const learningSites = [
         image: cloud_license,
         description:
             'AWS認定試験のオンライン学習サイト。大量の問題を解いて解説を読むことで効率的に学習できる。',
+    },
+    {
+        title: 'SQLab',
+        url: 'https://sqlab.net/',
+        image: sqlab,
+        description:
+            'SQLの練習ができる学習サービス。ブラウザ上ですぐにSQLを書いて結果を確認することできる。',
+    },
+    {
+        title: 'CRI BOOT CAMP',
+        url: 'https://cbc-study.com/home',
+        image: cbc,
+        description:
+            'Webデザイナー・ディレクター・プログラマーを目指す方向けに無料で学べるオンライン学習サイト。',
+    },
+    {
+        title: 'cpa learning',
+        url: 'https://www.cpa-learning.com/',
+        image: cpa,
+        description: '簿記や会計を完全無料で学べる。日商簿記3級、2級、1級講座が無料で学び放題。',
     },
 ];
