@@ -11,6 +11,7 @@ import codegrid from './img/codegrid.png';
 import techcrunch from './img/techcrunch.png';
 import mercari from './img/mercari.png';
 import cyberagent from './img/cyberagent.png';
+import futureclip from './img/futureclip.png';
 
 export const articleSites = [
     {
@@ -99,5 +100,12 @@ export const articleSites = [
         url: 'https://developers.cyberagent.co.jp/blog/',
         image: cyberagent,
         description: 'サイバーエージェントの技術ブログ。若手の記事も多く、モチベーションUPになる。',
+    },
+    {
+        title: 'Future Clip',
+        url: 'https://sp-jp.fujifilm.com/future-clip/index.html',
+        image: futureclip,
+        description:
+            '富士フイルムが運営する、ビジネスの成功を実現するためのヒントが詰まっている記事サイト。ビジネスマンにとって非常に有益。',
     },
 ];
