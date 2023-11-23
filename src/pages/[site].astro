@@ -77,7 +77,9 @@ const sitesText = sites.map((site) => `${site.title}\n${site.url}\n`).join('\n')
         />
         <div class="flex h-[calc(100%_-_3rem)]">
             <Sidebar />
-            <main class="sm:w-5/6 px-6 py-6 grid grid-cols-1 sm:grid-cols-3 gap-8 overflow-scroll">
+            <main
+                class="sm:w-5/6 px-6 py-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 overflow-scroll"
+            >
                 {
                     sites.map((site) => (
                         <a
