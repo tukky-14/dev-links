@@ -26,6 +26,7 @@ import waybackmachine from './img/waybackmachine.png';
 import producthunt from './img/producthunt.png';
 import webidea from './img/webidea.png';
 import sourcegraph from './img/sourcegraph.png';
+import drawio from './img/drawio.png';
 
 export const usefulSites = [
     {
@@ -214,5 +215,12 @@ export const usefulSites = [
         image: sourcegraph,
         description:
             'Gitリポジトリ上からソースコードを横断検索/フィルタリングできる。ソース検索が捗る。',
+    },
+    {
+        title: 'drawio',
+        url: 'https://app.diagrams.net/',
+        image: drawio,
+        description:
+            '高機能の無料の作図ツール。ER図やAWS構成図など様々な作図を行い、任意のドライブに保存可能。',
     },
 ];
