@@ -11,6 +11,7 @@ import { chromeSites } from '../features/chrome/chrome';
 import { vscodeSites } from '../features/vscode/vscode';
 import { appSites } from '../features/app/app';
 import { youtubeSites } from '../features/youtube/youtube';
+import { githubSites } from '../features/github/github';
 import Menu from '../components/Menu.astro';
 import MaterialSymbolsContentCopyOutline from '../components/MaterialSymbolsContentCopyOutline.astro';
 
@@ -25,6 +26,7 @@ export function getStaticPaths() {
         { params: { site: 'vscode' } },
         { params: { site: 'app' } },
         { params: { site: 'youtube' } },
+        { params: { site: 'github' } },
     ];
 }
 
@@ -57,6 +59,9 @@ switch (site) {
         break;
     case 'youtube':
         sites = youtubeSites;
+        break;
+    case 'github':
+        sites = githubSites;
         break;
     default:
         sites = learningSites;
