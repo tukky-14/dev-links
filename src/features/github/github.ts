@@ -8,8 +8,23 @@ import project_based_learning from './img/project_based_learning.png';
 import awesome_learning_resources from './img/awesome_learning_resources.png';
 import design_resources_for_developers from './img/design_resources_for_developers.png';
 import public_apis from './img/public_apis.png';
+import awesome from './img/awesome.png';
+import build_your_own_x from './img/build_your_own_x.png';
+import gitignore from './img/gitignore.png';
 
 export const githubSites = [
+    {
+        title: 'gitignore',
+        url: 'https://github.com/github/gitignore',
+        image: gitignore,
+        description: `.gitignoreのテンプレートを言語やフレームワークごとにまとめている。`,
+    },
+    {
+        title: 'public-apis',
+        url: 'https://github.com/public-apis/public-apis',
+        image: public_apis,
+        description: `ソフトウェアやウェブ開発で利用可能な無料のAPIを集めている。`,
+    },
     {
         title: 'web-dev-for-beginners',
         url: 'https://github.com/microsoft/Web-Dev-For-Beginners',
@@ -65,9 +80,15 @@ export const githubSites = [
         description: `写真、ウェブテンプレート、CSSフレームワーク、UIライブラリ、ツールなどのリスト。`,
     },
     {
-        title: 'public-apis',
-        url: 'https://github.com/public-apis/public-apis',
-        image: public_apis,
-        description: `ソフトウェアやウェブ開発で利用可能な無料のAPIを集めている。`,
+        title: 'build-your-own-x',
+        url: 'https://github.com/codecrafters-io/build-your-own-x?tab=readme-ov-file',
+        image: build_your_own_x,
+        description: `言語やフレームワークごとに、ゼロからアプリケーション等を開発するための必要なガイドをまとめている。`,
+    },
+    {
+        title: 'awesome',
+        url: 'https://github.com/sindresorhus/awesome?tab=readme-ov-file',
+        image: awesome,
+        description: `開発の効率を最大化させてくれるツール、ライブラリやフレームワーク等をまとめている。`,
     },
 ];
