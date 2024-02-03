@@ -13,6 +13,7 @@ import rest_client from './img/rest_client.png';
 import remote_ssh from './img/remote_ssh.png';
 import vscode_input_sequence from './img/vscode_input_sequence.png';
 import japanese_proofreading from './img/japanese_proofreading.png';
+import project_manager from './img/project_manager.png';
 
 export const vscodeSites = [
     {
@@ -111,5 +112,12 @@ export const vscodeSites = [
         image: japanese_proofreading,
         description:
             '日本語のテキストを自動で校正。プログラムソースだけでなく、普通のテキストを書く時にもVSCodeを使おう。',
+    },
+    {
+        title: 'Project Manager',
+        url: 'https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager',
+        image: project_manager,
+        description:
+            'よく使うプロジェクトを登録してサイドバーから簡単に開ける。複数のプロジェクト管理・切替が楽になる。タグ付けも可能。',
     },
 ];
