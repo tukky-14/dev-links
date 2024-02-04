@@ -14,6 +14,9 @@ import remote_ssh from './img/remote_ssh.png';
 import vscode_input_sequence from './img/vscode_input_sequence.png';
 import japanese_proofreading from './img/japanese_proofreading.png';
 import project_manager from './img/project_manager.png';
+import import_cost from './img/import_cost.png';
+import markdown_all_in_one from './img/markdown_all_in_one.png';
+import todo_tree from './img/todo_tree.png';
 
 export const vscodeSites = [
     {
@@ -119,5 +122,26 @@ export const vscodeSites = [
         image: project_manager,
         description:
             'よく使うプロジェクトを登録してサイドバーから簡単に開ける。複数のプロジェクト管理・切替が楽になる。タグ付けも可能。',
+    },
+    {
+        title: 'Import Cost',
+        url: 'https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost',
+        image: import_cost,
+        description:
+            'JavaScriptなどでImportしたライブラリのサイズを表示。重くなりすぎないようにしよう。',
+    },
+    {
+        title: 'Markdown All in One',
+        url: 'https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one',
+        image: markdown_all_in_one,
+        description:
+            'VSCodeでMarkdownを書くのが便利になる拡張機能。マークダウン記法のショートカットやHTML出力などが可能。',
+    },
+    {
+        title: 'Todo Tree',
+        url: 'https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree',
+        image: todo_tree,
+        description:
+            '"TODO"や"FIXME"などのコメントをつけた箇所にサイドバーからアクセスできる。横断検索せずに見やすく管理。',
     },
 ];
