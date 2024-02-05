@@ -22,6 +22,7 @@ import sqlab from './img/sqlab.png';
 import cbc from './img/cbc.png';
 import cpa from './img/cpa.png';
 import roadmap from './img/roadmap.png';
+import quickrefme from './img/quickrefme.png';
 
 export const learningSites = [
     {
@@ -178,5 +179,12 @@ export const learningSites = [
         url: 'https://roadmap.sh/',
         image: roadmap,
         description: 'エンジニアの役割やプログラミング言語ごとのロードマップをまとめているサイト。',
+    },
+    {
+        title: 'QuickRef.ME',
+        url: 'https://quickref.me/#google_vignette',
+        image: quickrefme,
+        description:
+            'さまざまな言語やツールのチートシートがまとめられているサイト。端的で非常に見やすい。',
     },
 ];
