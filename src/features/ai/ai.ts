@@ -14,6 +14,7 @@ import hirameki from './img/hirameki.png';
 import clipdrop from './img/clipdrop.png';
 import v0 from './img/v0.png';
 import claude from './img/claude.png';
+import copilot from './img/copilot.png';
 
 export const aiSites = [
     {
@@ -27,7 +28,35 @@ export const aiSites = [
         title: 'Bard',
         url: 'https://bard.google.com/',
         image: bard,
-        description: 'Googleが開発した対話型AIのサービス。2023年5月に日本語にも対応した。',
+        description:
+            'Googleが開発した対話型AIのサービス。2024年2月にGemini Proがすべての言語に対応し、機能が大幅アップデートした。',
+    },
+    {
+        title: 'Copilot',
+        url: 'https://copilot.microsoft.com/',
+        image: copilot,
+        description:
+            'OpenAIのAPIを利用したMicrosoftの対話型AIのサービス。GPT-4が無料で使用できる。',
+    },
+    {
+        title: 'Claude',
+        url: 'https://claude.ai/login?returnTo=%2F',
+        image: claude,
+        description:
+            'Anthropic社が作成したAIチャット。最大100,000トークンのテキスト処理や複数ファイルの同時読み込みが可能で、ChatGPTを上回る性能を発揮すると期待されている。',
+    },
+    {
+        title: 'Perplexity',
+        url: 'https://www.perplexity.ai/',
+        image: perplexity,
+        description:
+            'アカウント登録なしで使えるChatGPTライクなAIサービス。レスポンスも早い。解答の根拠にURLを提示してくれるため、調査に向いている。',
+    },
+    {
+        title: 'phind',
+        url: 'https://www.phind.com/',
+        image: phind,
+        description: '開発向けに特化したChatGPTライクなAIサービス。学習が捗る。',
     },
     {
         title: 'MiniGPT',
@@ -36,18 +65,7 @@ export const aiSites = [
         description:
             '画像を使用して会話できるAIツール。画像の説明やコードの作成、広告文章を考えたりできる。',
     },
-    {
-        title: 'Perplexity',
-        url: 'https://www.perplexity.ai/',
-        image: perplexity,
-        description: 'アカウント登録なしで使えるChatGPTライクなAIサービス。レスポンスも早いです。',
-    },
-    {
-        title: 'phind',
-        url: 'https://www.phind.com/',
-        image: phind,
-        description: '開発向けに特化したChatGPTライクなAIサービス。学習が捗ります。',
-    },
+
     {
         title: 'Stable Diffusion',
         url: 'https://stablediffusionweb.com/',
@@ -113,12 +131,5 @@ export const aiSites = [
         image: v0,
         description:
             'Next.jsの開発元として知られるVercel Labsが提供する生成AIサービス。ユーザーが入力したテキストプロンプトに基づいてWebページのUIを自動生成する。',
-    },
-    {
-        title: 'Claude',
-        url: 'https://claude.ai/login?returnTo=%2F',
-        image: claude,
-        description:
-            'Anthropic社が作成したAIチャット。最大100,000トークンのテキスト処理や複数ファイルの同時読み込みが可能で、ChatGPTを上回る性能を発揮すると期待されている。',
     },
 ];
