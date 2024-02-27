@@ -27,6 +27,7 @@ import producthunt from './img/producthunt.png';
 import webidea from './img/webidea.png';
 import sourcegraph from './img/sourcegraph.png';
 import drawio from './img/drawio.png';
+import placehold from './img/placehold.png';
 
 export const usefulSites = [
     {
@@ -222,5 +223,12 @@ export const usefulSites = [
         image: drawio,
         description:
             '高機能の無料の作図ツール。ER図やAWS構成図など様々な作図を行い、任意のドライブに保存可能。',
+    },
+    {
+        title: 'placehold.jp',
+        url: 'https://placehold.jp/',
+        image: placehold,
+        description:
+            'ダミー画像生成、モックアップ用画像が簡単に作成できる。文字やサイズも自由に変更可能。',
     },
 ];
