@@ -28,6 +28,7 @@ import webidea from './img/webidea.png';
 import sourcegraph from './img/sourcegraph.png';
 import drawio from './img/drawio.png';
 import placehold from './img/placehold.png';
+import aun from './img/aun.png';
 
 export const usefulSites = [
     {
@@ -230,5 +231,12 @@ export const usefulSites = [
         image: placehold,
         description:
             'ダミー画像生成、モックアップ用画像が簡単に作成できる。文字やサイズも自由に変更可能。',
+    },
+    {
+        title: 'AUN',
+        url: 'https://aun.tools/',
+        image: aun,
+        description:
+            'URLを入れるだけでスクリーンショット撮影し、メモを付けてすぐにシェアできる。あうんの呼吸でコミュニーケーション。',
     },
 ];
