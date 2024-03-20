@@ -29,6 +29,8 @@ import sourcegraph from './img/sourcegraph.png';
 import drawio from './img/drawio.png';
 import placehold from './img/placehold.png';
 import aun from './img/aun.png';
+import regexper from './img/regexper.png';
+import gitignoreio from './img/gitignoreio.png';
 
 export const usefulSites = [
     {
@@ -212,13 +214,6 @@ export const usefulSites = [
         description: 'Webデザインで使用する、動くパーツを逆引きできるサイト。',
     },
     {
-        title: 'SourceGraph',
-        url: 'https://sourcegraph.com/search',
-        image: sourcegraph,
-        description:
-            'Gitリポジトリ上からソースコードを横断検索/フィルタリングできる。ソース検索が捗る。',
-    },
-    {
         title: 'drawio',
         url: 'https://app.diagrams.net/',
         image: drawio,
@@ -238,5 +233,26 @@ export const usefulSites = [
         image: aun,
         description:
             'URLを入れるだけでスクリーンショット撮影し、メモを付けてすぐにシェアできる。あうんの呼吸でコミュニーケーション。',
+    },
+    {
+        title: 'regexper',
+        url: 'https://regexper.com/',
+        image: regexper,
+        description:
+            '正規表現を可視化してくれるサイト。正規表現の理解が深まる。正規表現の学習にも使える。',
+    },
+    {
+        title: 'SourceGraph',
+        url: 'https://sourcegraph.com/search',
+        image: sourcegraph,
+        description:
+            'Gitリポジトリ上からソースコードを横断検索/フィルタリングできる。ソース検索が捗る。',
+    },
+    {
+        title: 'gitignore.io',
+        url: 'https://www.toptal.com/developers/gitignore',
+        image: gitignoreio,
+        description:
+            'OSやフレームワーク、プログラミング言語などを選択すると、それに合わせた.gitignoreファイルを生成してくれる。',
     },
 ];
