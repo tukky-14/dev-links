@@ -10,7 +10,7 @@ import app from './icon/app.svg';
 import youtube from './icon/youtube.svg';
 import github from './icon/github.svg';
 
-const menuList = [
+export const menuList = [
     { name: 'ホーム', link: '/', icon: home },
     { name: '学習', link: '/learning', icon: learning },
     { name: '記事', link: '/article', icon: article },

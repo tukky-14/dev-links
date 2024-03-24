@@ -4,9 +4,10 @@ import Header from '../components/Header.astro';
 import Sidebar from '../components/Sidebar.astro';
 import home from '../features/home/img/home.png';
 import Menu from '../components/Menu.astro';
+import { menuList } from '../features/sidebar/sidebarOptions';
 
-const menuList = ['/ai', '/article', '/learning', '/useful', '/material'];
-const targetMenu = menuList[Math.floor(Math.random() * menuList.length)];
+const menuLinkList = menuList.map((menu) => menu.link);
+const targetMenu = menuLinkList[Math.floor(Math.random() * menuLinkList.length)];
 ---
 
 <Layout>
