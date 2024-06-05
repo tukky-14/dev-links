@@ -5,7 +5,7 @@ module.exports = {
         extend: {
             animation: {
                 'fade-in-top': 'fade-in-top 1.0s cubic-bezier(0.390, 0.575, 0.565, 1.000) both',
-                'fade-in': 'fade-in 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both',
+                'fade-in': 'fade-in 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) both',
             },
             keyframes: {
                 'fade-in-top': {
