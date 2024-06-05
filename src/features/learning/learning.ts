@@ -21,8 +21,10 @@ import cloud_license from './img/cloud_license.png';
 import sqlab from './img/sqlab.png';
 import cbc from './img/cbc.png';
 import cpa from './img/cpa.png';
+import japan_reskilling_consortium from './img/japan_reskilling_consortium.png';
 import roadmap from './img/roadmap.png';
 import quickrefme from './img/quickrefme.png';
+import devdocs from './img/devdocs.png';
 
 export const learningSites = [
     {
@@ -175,6 +177,13 @@ export const learningSites = [
         description: '簿記や会計を完全無料で学べる。日商簿記3級、2級、1級講座が無料で学び放題。',
     },
     {
+        title: '日本リスキリングコンソーシアム',
+        url: 'https://japan-reskilling-consortium.jp/',
+        image: japan_reskilling_consortium,
+        description:
+            '日本リスキリングコンソーシアムの公式サイト。リスキリングに関する情報がまとめられている。',
+    },
+    {
         title: 'Developer Roadmaps',
         url: 'https://roadmap.sh/',
         image: roadmap,
@@ -186,5 +195,12 @@ export const learningSites = [
         image: quickrefme,
         description:
             'さまざまな言語やツールのチートシートがまとめられているサイト。端的で非常に見やすい。',
+    },
+    {
+        title: 'DevDocs API Documentation',
+        url: 'https://devdocs.io/',
+        image: devdocs,
+        description:
+            'さまざまなプログラミング言語やフレームワークのドキュメントを一元管理しているサイト。オフラインでも利用可能。',
     },
 ];
