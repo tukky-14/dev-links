@@ -31,6 +31,7 @@ import placehold from './img/placehold.png';
 import aun from './img/aun.png';
 import regexper from './img/regexper.png';
 import gitignoreio from './img/gitignoreio.png';
+import nslookup from './img/nslookup.png';
 
 export const usefulSites = [
     {
@@ -254,5 +255,11 @@ export const usefulSites = [
         image: gitignoreio,
         description:
             'OSやフレームワーク、プログラミング言語などを選択すると、それに合わせた.gitignoreファイルを生成してくれる。',
+    },
+    {
+        title: 'Nslookup.io',
+        url: 'https://www.nslookup.io/website-to-ip-lookup/',
+        image: nslookup,
+        description: 'ドメイン名からIPアドレスを調べることができる。',
     },
 ];
