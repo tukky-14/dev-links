@@ -9,6 +9,7 @@ import vscode from './icon/vscode.svg';
 import app from './icon/app.svg';
 import youtube from './icon/youtube.svg';
 import github from './icon/github.svg';
+import podcast from './icon/podcast.svg';
 
 export const menuList = [
     { name: 'ホーム', link: '/', icon: home },
@@ -22,6 +23,7 @@ export const menuList = [
     { name: 'アプリ', link: '/app', icon: app },
     { name: 'YouTube', link: '/youtube', icon: youtube },
     { name: 'GitHub', link: '/github', icon: github },
+    { name: 'Podcast', link: '/podcast', icon: podcast },
 ];
 
 export const SidebarOptions = () => {

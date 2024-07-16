@@ -14,6 +14,7 @@ import { youtubeSites } from '../features/youtube/youtube';
 import { githubSites } from '../features/github/github';
 import Menu from '../components/Menu.astro';
 import MaterialSymbolsContentCopyOutline from '../components/MaterialSymbolsContentCopyOutline.astro';
+import { podcastSites } from '../features/podcast/podcast';
 
 export function getStaticPaths() {
     return [
@@ -27,6 +28,7 @@ export function getStaticPaths() {
         { params: { site: 'app' } },
         { params: { site: 'youtube' } },
         { params: { site: 'github' } },
+        { params: { site: 'podcast' } },
     ];
 }
 
@@ -62,6 +64,9 @@ switch (site) {
         break;
     case 'github':
         sites = githubSites;
+        break;
+    case 'podcast':
+        sites = podcastSites;
         break;
     default:
         sites = learningSites;
