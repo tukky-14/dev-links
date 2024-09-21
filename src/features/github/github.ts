@@ -11,6 +11,7 @@ import public_apis from './img/public_apis.png';
 import awesome from './img/awesome.png';
 import build_your_own_x from './img/build_your_own_x.png';
 import gitignore from './img/gitignore.png';
+import engineering_blogs from './img/engineering_blogs.png';
 
 export const githubSites = [
     {
@@ -90,5 +91,11 @@ export const githubSites = [
         url: 'https://github.com/sindresorhus/awesome?tab=readme-ov-file',
         image: awesome,
         description: `開発の効率を最大化させてくれるツール、ライブラリやフレームワーク等をまとめている。`,
+    },
+    {
+        title: 'engineering-blogs',
+        url: 'https://github.com/kilimchoi/engineering-blogs',
+        image: engineering_blogs,
+        description: `エンジニアリングに関するブログをまとめている。`,
     },
 ];
