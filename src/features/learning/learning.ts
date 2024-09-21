@@ -24,6 +24,7 @@ import cpa from './img/cpa.png';
 import japan_reskilling_consortium from './img/japan_reskilling_consortium.png';
 import roadmap from './img/roadmap.png';
 import quickrefme from './img/quickrefme.png';
+import devhints from './img/devhints.png';
 import devdocs from './img/devdocs.png';
 
 export const learningSites = [
@@ -193,6 +194,13 @@ export const learningSites = [
         title: 'QuickRef.ME',
         url: 'https://quickref.me/#google_vignette',
         image: quickrefme,
+        description:
+            'さまざまな言語やツールのチートシートがまとめられているサイト。端的で非常に見やすい。',
+    },
+    {
+        title: 'devHints',
+        url: 'https://devhints.io/',
+        image: devhints,
         description:
             'さまざまな言語やツールのチートシートがまとめられているサイト。端的で非常に見やすい。',
     },
