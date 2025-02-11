@@ -32,6 +32,8 @@ import aun from './img/aun.png';
 import regexper from './img/regexper.png';
 import gitignoreio from './img/gitignoreio.png';
 import nslookup from './img/nslookup.png';
+import requestcatcher from './img/nslookup.png';
+import ossinsight from './img/nslookup.png';
 
 export const usefulSites = [
     {
@@ -261,5 +263,17 @@ export const usefulSites = [
         url: 'https://www.nslookup.io/website-to-ip-lookup/',
         image: nslookup,
         description: 'ドメイン名からIPアドレスを調べることができる。',
+    },
+    {
+        title: 'Request Catcher',
+        url: 'https://requestcatcher.com/',
+        image: requestcatcher,
+        description: 'APIリクエスト作成を一瞬で作成。アプリケーションのテストに使用可能。',
+    },
+    {
+        title: 'OSS Insight',
+        url: 'https://ossinsight.io/',
+        image: ossinsight,
+        description: 'OSSの動向を確認できるサイト。流行っているプログラミング言語なども分かる。',
     },
 ];
