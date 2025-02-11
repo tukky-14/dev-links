@@ -32,8 +32,8 @@ import aun from './img/aun.png';
 import regexper from './img/regexper.png';
 import gitignoreio from './img/gitignoreio.png';
 import nslookup from './img/nslookup.png';
-import requestcatcher from './img/nslookup.png';
-import ossinsight from './img/nslookup.png';
+import requestcatcher from './img/requestcatcher.png';
+import ossinsight from './img/ossinsight.png';
 
 export const usefulSites = [
     {
